@@ -6,7 +6,7 @@ using Castle.Windsor;
 
 namespace System.Net.Http.Windsor
 {
-    public static class ContainerExtensions
+    public static class WindsorContainerExtensions
     {
         
         public static IWindsorContainer AddHttpClient<TTypedClient, TTypedClientImplementation>(
